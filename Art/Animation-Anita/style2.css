@@ -1,0 +1,129 @@
+/*Selector{
+          property value;
+}*/
+
+
+
+*{
+    text-align: left
+}
+
+h1 {color: #1a1d1a}
+
+p {color : #9034b4 }
+
+
+body
+{background-image: url(./img/background.jpg);
+background-size: cover;
+}
+
+
+
+h1 {
+  background: url(./img/giphy.gif) 0 0;
+  text-align:right;
+  cursor: pointer;
+  width: 800px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: myfirst 5s 2;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes myfirst {
+  0%   {background: red; left: 0px; top: 0px;}
+  25%  {background: yellow; left: 200px; top: 0px;}
+  50%  {background: blue; left: 200px; top: 200px;}
+  75%  {background: green; left: 0px; top: 200px;}
+  100% {background: red; left: 0px; top: 0px;}
+}
+
+
+ol li {
+    list-style: none;
+    display:inline-block ;  
+ }
+
+
+.webtext :first-child{
+
+    border: 5px dashed blue ;
+}
+
+.active{
+    color: black
+}
+
+#div1 {
+    width: 800px;
+    height: 230px;
+    background: #c9a5a5;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+
+* #div2 {
+    width: 800px;
+    height: 230px;
+    background: #8ace8ae8;
+    position: relative;
+    animation: mymove 3s;
+    animation-iteration-count: 2;
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+} */
+
+
+h3 p {
+    color: black;
+}
+
+<!--h4>p{
+    color:black;
+    border: 5px solid yellow
+}
+
+h5 :hover{
+    color: blue;
+    border:8px dashed black;
+ }
+
+
+ <!--p{
+     line-height: 20px ;
+     font-style : italic ;
+     font-weight: bold;
+     font-size:80% ;
+     font-family: 'Source Sans Pro', sans-serif;
+
+ }
+
+        img{ float: right}
+
+        footer{  clear :both ;
+            text-align: center;
+    }
+
+    .boxmodel{
+        border: 5px solid rgb(12, 12, 10);
+        display:inline-block;
+        padding: 20px 50px;
+        margin: 0px 30px ;
+        height: 33px ;
+        width: 55px ;
+        
+    }
+    p {font-size: 20px;}
+
+    span{font-size: 5em;
+         
+    }

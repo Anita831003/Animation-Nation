@@ -1459,7 +1459,15 @@ let cards = [
 	imageLink: "./Art/Alara Joel/stealth ghost.png",
 	author: "Alara Joel",
 	githubLink: "https://github.com/stealthman22"
-}
+},
+  {
+	artName: 'Animation-Anita',
+	pageLink: './Art/Animation-Anita/index.html',
+	imageLink: './Art/Animation-Anita/index.gif',
+	author: 'Anita Hsieh',
+	githubLink: 'https://github.com/Anita831003'
+},
+
 ];
 
 // +--------------------------------------------------------------------------------+
