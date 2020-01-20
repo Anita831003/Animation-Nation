@@ -1466,6 +1466,7 @@ let cards = [
 	imageLink: './Art/Animation-Anita/index.gif',
 	author: 'Anita Hsieh',
 	githubLink: 'https://github.com/Anita831003'
+
 },
 
 ];
